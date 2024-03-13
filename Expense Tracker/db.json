@@ -1,0 +1,32 @@
+{
+  "expense": [
+    {
+      "id": "a7e1",
+      "description": "Expense",
+      "amount": "2000",
+      "date": "2024-02-29T17:12:05.241Z",
+      "expType": "Expense"
+    },
+    {
+      "id": "1d90",
+      "description": "Bonus",
+      "amount": "4000",
+      "date": "2024-02-29T17:12:05.241Z",
+      "expType": "Income"
+    },
+    {
+      "id": "c322",
+      "description": "Income",
+      "amount": "20000",
+      "date": "2024-03-01T04:19:03.353Z",
+      "expType": "Income"
+    },
+    {
+      "id": "c208",
+      "description": "Grocery sh",
+      "amount": "500",
+      "date": "2024-03-14",
+      "expType": "Expense"
+    }
+  ]
+}

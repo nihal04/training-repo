@@ -1,0 +1,13 @@
+{
+    "InsertScript": "db.Products.insert([{ProductID: "P001", Name: "Laptop", Brand: "Dell", Quantity: 5, Price: 32000},{ProductID: "P002", Name: "Tablet", Brand: "Lenovo", Quantity: 7, Price: 15000},{ProductID: "P003", Name: "Camera", Brand: "Nikon", Quantity: 3, Price: 22000},{ProductID: "P004", Name: "Smartphone", Brand: "Samsung", Quantity: 8, Price: 25000},{ProductID: "P005", Name: "Speaker", Brand: "Bose", Quantity: 4, Price: 12000}]);",
+    "Query1": "db.Products.find({ProductID: "P003"});",
+    "Query2": "db.Products.find({Price: {$lt: 20000, $gt: 10000}});",
+    "Query3": " db.Products.find({Quantity: {$gt: 5}});",
+    "Query4": "db.Products.find({Name:{$regex:"top$"}});",
+    "Query5": "db.Products.find({Price: {$lte: 20000}});",
+    "Query6": "db.Products.find().sort({Name: -1});",
+    "Query7": "db.Products.aggregate([{$group: {_id:"$groupField", Total_Price:{$sum:"$Price"}}}]);",
+    "Query8": "db.Products.aggregate({ $project: {Name:1, total: { $multiply: [ "$Price", "$Quantity" ]}}});",
+    "Query9": "db.Products.update({"ProductID":"P002"}, {$set:{"Price":20000}});",
+    "Query10": "db.Products.remove({Brand: "Samsung"});"
+}

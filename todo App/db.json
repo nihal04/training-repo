@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "f0bb",
+      "text": "Meeting at 9",
+      "isCompleted": false
+    },
+    {
+      "id": "9b73",
+      "text": "Meeting at 8",
+      "isCompleted": false
+    },
+    {
+      "id": "3b6f",
+      "text": "gym",
+      "isCompleted": false
+    }
+  ]
+}
