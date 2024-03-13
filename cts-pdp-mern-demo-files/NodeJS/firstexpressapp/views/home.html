@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <body>
+    <h1>Welcome to Html View</h1>
+    <h1>Welcome <%= name %></h1>
+    <ul>
+      <% hobbies.forEach((item)=>{ %>
+      <li><%= item %></li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
